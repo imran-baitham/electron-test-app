@@ -65,6 +65,6 @@ The code is intentionally straightforward and focused on **front‑end quality**
 
 ---
 
-## License
+## Notes
 
-MIT – you may reuse this as a starting point for other React/Electron experiments.
+This repository is a small, one-off test project for showcasing UI and Electron skills and is not intended to be published as an open-source library.
