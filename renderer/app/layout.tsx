@@ -22,13 +22,16 @@ export default function RootLayout({
   children: React.ReactNode
 }>) {
   return (
-    <html lang="en">
+    <html
+      lang="en"
+      suppressHydrationWarning>
       <body
+        suppressHydrationWarning
         className={cn(
-          'bg-background min-h-screen font-sans antialiased',
+          'bg-background font-sans antialiased',
           fontSans.variable
         )}>
-        {children}
+        <main>{children}</main>
       </body>
     </html>
   )
