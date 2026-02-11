@@ -20,7 +20,7 @@
   "scripts": {
     "format": "next lint renderer --fix && prettier --write .",
     "dev": "echo \"Please use 'next:dev' or 'electron:dev'\" && exit 1",
-    "build": "echo \"Please use 'next:build' or 'electron:build'\" && exit 1",
+    "build": "npm run next:build",
     "start": "echo \"Please use 'next:start'\" && exit 1",
     "test": "echo \"Please use 'next:test', 'electron:test' or 'all:text'\" && exit 1",
     "all:test": "npm run next:test && npm run electron:test",
